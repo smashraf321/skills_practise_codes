@@ -1,8 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+
 char* convert(char* s, int numRows);
-int main(){
+
+int main()
+{
     char* s="PAYPALISHIRING";
     int numRows = 3;
 
@@ -11,7 +14,8 @@ int main(){
     return(0);
 }
 
-char* convert(char* s, int numRows){
+char* convert(char* s, int numRows)
+{
     if (numRows == 1) {
         printf("\n rows = 1 case %s\n",s);
         return s;
